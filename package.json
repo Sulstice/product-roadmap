@@ -1,0 +1,32 @@
+{
+  "name": "dwyl-product-roadmap",
+  "description": "Insert imagintative/captivating description here!",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dwyl/product-roadmap",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwyl/product-roadmap.git"
+  },
+  "author": "@dwyl & friends!",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "start": "live-server --port=8000"
+  },
+  "keywords": [
+    "mobile first",
+    "beautiful",
+    "functional",
+    "fast",
+    "CSS",
+    "style",
+    "styles",
+    "learn",
+    "beginner",
+    "tutorial",
+    "how to"
+  ],
+  "license": "GPL-2"
+}

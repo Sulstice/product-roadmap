@@ -1,4 +1,4 @@
-# Product Roadmap
+# Product Roadmap [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/nelsonic/product-roadmap/issues)
 
 ![roadmap-1152x672-flip](https://user-images.githubusercontent.com/194400/27068309-5b379538-5007-11e7-99fb-20f09369c672.jpg)
 
@@ -7,7 +7,7 @@
 
 Having a **_clear_ Product Roadmap** is ***essential*** for
 ensuring ***everyone*** is ***focussed***
-on working towards the collective ***goal***.
+on the collective ***goal***.
 
 ### _Public_?
 
@@ -42,7 +42,8 @@ is easy to replicate and difficult to differentiate.<br />
 However we **hypothesize** that
 being **open** and **transparent**
 with our roadmap will foster
-a more **collaborative culture**_)
+a more **collaborative culture**
+and **reduce duplication** of **effort**._
 
 + _**Fear** that members of their **own team** will leave
 and "**steal**" their **secrets**; this happens more
@@ -88,16 +89,16 @@ the various project(s) that make up the dwyl app.
 
 (_provided the **contribution guidelines/workflow** is **respected/followed** to **avoid chaos**_).
 
-#### _Who NOT_?
+### _Who NOT_?
 
 Who should *not* be reading this product roadmap?
 
 Anyone who:
-+ believes the World (_or themself_) "_cannot be improved_.
++ believes the World (_or themself_) "_cannot be improved_".
 + thinks the challenges listed above are "_already solved_"
 by "XYZ Company" ...
 + is not _obsessed_ by working on solving a
-_problem_ that benefits all of humanity.
+_challenge_ that benefits all of humanity.
 + does **not _want_ to _learn_** the skills required
 to build something great.
 + is not prepared to
@@ -116,7 +117,10 @@ which **features** get built **next**_!
 
 ## How?
 
-This list _will_ evolve over time. <br />
+> **Note**: this list _will naturally_ evolve
+(be exteneded/refined) over time in response to
+new requirements and priorities. <br />
+
 We will insert links to specific features
 and check them off this list as we go.
 
@@ -131,15 +135,24 @@ and needs to be addressed _first_ on any checklist.
 feel reliable in major Cities, but go outside
 in the "wild" it's _consistenly unreliable_;
 everything we build needs to work offline first
-and be _frual_ with bandwidth.
+and be _frugal_ with bandwidth.
 
 + [ ] Mobile First - hopefully this is fairly obvious by now.
   + [ ] Progressive Web App
     + https://github.com/dwyl/learn-progressive-web-apps
-  + [ ] iOS Native App for iDevices (Non-PWA)
-
-  + [ ] Apple Watch UI - while apple watch is _definately **not**_
-  the platform we want to "_win_" the "_wearable tech_"
+  + [ ] iOS _Native_ App for iDevices (Non-PWA) - While we would _prefer_
+  not to be writing a Native iOS App, we acknowledge that _many_ of the
+  people using our app have iOS devices so to serve these people we are
+  building a "basic but functional" version of the app in Swift which includes:
+    + Offline First capability
+    + Sync Data when connection to internet is available
+    + Sync with Apple Watch if used
+  + [ ] Apple Watch UI - while we all prefer _open_ technology,
+  we _know_ Apple Watch is
+  [_statistically_ the most popular](http://www.scmp.com/tech/article/2067481/smartwatch-market-hits-record-211-million-sales-2016-apple-pulls-ahead-samsung)
+  wearable device _and_ at least superficially it is easier
+  to "target" for development than Tizen or Android Wear
+  because there are only two screen sizes which are both square.
     + https://github.com/dwyl/learn-apple-watch-development
 
 + [ ] Distributed by `default`
@@ -149,6 +162,7 @@ and be _frual_ with bandwidth.
   https://github.com/dwyl/learn-WebRTC
 
 + [ ] API: REST and RealTime (WebSockets)
+  + https://github.com/dwyl/learn-api-design
 
 + [ ] Sharing
 
@@ -165,6 +179,9 @@ and be _frual_ with bandwidth.
 + [ ] Track time against a task
 
 + [ ] End Task
+  + [ ] Stops the timer against the task
+  + [ ] Notifies the task owner/requester
+  + [ ]
 
 + [ ] Get "Sign-off" (_Confirmation_) / Feedback on Completed Task
 
